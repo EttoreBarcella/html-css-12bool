@@ -11,6 +11,7 @@
 .container{
     max-width: 1170px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 /* ROWS */
@@ -73,3 +74,10 @@
     max-width: calc((100% / 12) * 12);
 }
 
+/* SPECIAL */
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
