@@ -1,0 +1,19 @@
+
+    [class*="col"]{
+        background-color: #006cfa;
+        border: 1px solid white;
+        background-image: url(https://i.kym-cdn.com/entries/icons/mobile/000/028/526/honklhonk.jpg);
+        background-size: 100%;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+      
+    .nest{
+        padding: 8px;
+    }
+    
+    [class*="col-"] [class*="col-"]{
+        background-color: #00e165;
+        border: 1px solid #006cfa;
+    }
+    
